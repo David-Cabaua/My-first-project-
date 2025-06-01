@@ -6,6 +6,6 @@ const timer = setInterval(() => {
     a+=0.03125
     console.log(a)
   } else {
-    stopInterval(timer)
+    clearInterval(timer)
   }
 }, 31.25)
